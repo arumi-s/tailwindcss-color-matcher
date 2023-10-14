@@ -1,0 +1,25 @@
+@tailwind base;
+
+:root {
+	font-family: sans-serif;
+
+	color-scheme: light;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+* {
+	@apply overscroll-y-none;
+}
+
+body,
+#app {
+	@apply w-full h-full;
+}
+
+@tailwind components;
+@tailwind utilities;
