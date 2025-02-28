@@ -33,7 +33,8 @@
 <style>
 	.alpha {
 		clip-path: circle(50%);
-		background-image: linear-gradient(
+		background-image:
+			linear-gradient(
 				to right,
 				rgba(238, 238, 238, 0.75),
 				rgba(238, 238, 238, 0.75)
